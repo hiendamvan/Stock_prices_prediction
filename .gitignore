@@ -3,4 +3,5 @@ notebooks/cifar_net.pth
 .ipynb_checkpoints/
 .env
 sentiment_llm/__pycache__/
+data/final/
 
