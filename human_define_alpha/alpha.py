@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv('../data/stock_with_indicators/TCB_with_indicators.csv')
+df = pd.read_csv('../data/final/VCB_final.csv')
 # Ensure copies to avoid in-place surprises
 df = df.copy()
 

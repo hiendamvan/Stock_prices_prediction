@@ -4,7 +4,7 @@ import ppscore as pps
 
 # Giả sử df có các cột: open, high, low, close, volume
 # Thêm returns, vwap, adv20
-df = pd.read_csv('../data/stock_with_indicators/TCB_with_indicators.csv')
+df = pd.read_csv('../data/final/VCB_final.csv')
 df = df.copy()
 df["returns"] = df["close"].pct_change()
 df["vwap"] = (df["close"] * df["volume"]).rolling(10).mean()
